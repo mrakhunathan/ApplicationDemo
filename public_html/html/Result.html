@@ -1,0 +1,17 @@
+<div>
+    <table class="table table-striped">
+        <tr ng-repeat="a in serviceResponse">
+            <th>Conditions at {{a.title}}</th>
+            <td >Sunrise</td><td> {{a.astronomy.sunrise}}</td>
+            <td>Sunset</td><td> {{a.astronomy.sunset}}</td>
+            <td>Humidity</td><td> {{a.atmosphere.humidity}}</td>
+            <td>Pressure</td><td> {{a.atmosphere.pressure}}</td>
+            <td>Visibility</td><td> {{a.atmosphere.visibility}}</td>
+            <td>Temperature</td><td> {{a.item.condition.temp}}</td>
+            <td>Condition</td><td> {{a.item.condition.text}}</td>
+            <td>Wind</td><td> {{a.wind.chill}}</td>
+            <td>Wind Direction</td><td> {{a.wind.direction}}</td>
+            <td>Wind Speed</td><td> {{a.wind.speed}}</td>
+        </tr>
+    </table>
+</div>

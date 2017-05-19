@@ -1,0 +1,25 @@
+{
+  "name": "MyApplication",
+  "version": "1.0.0",
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "Rakhunathan.M",
+  "contributors": [],
+  "devDependencies": {
+    "bower": "1.7.9",
+    "browserify": "14.3.0",
+    "concat.js": "1.0.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "1.0.1",
+    "grunt-contrib-cssmin": "2.1.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "minify": "2.0.13",
+    "uglify": "0.1.5"
+  },
+  "dependencies": {}
+}
